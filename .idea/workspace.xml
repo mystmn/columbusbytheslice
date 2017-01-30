@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fcbaf275-40fa-42a7-b84c-8796170cdc5f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wsgi.py" afterPath="$PROJECT_DIR$/wsgi.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,11 +30,11 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="60" column="21" lean-forward="false" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
+            <state relative-caret-position="475">
+              <caret line="271" column="20" lean-forward="false" selection-start-line="271" selection-start-column="20" selection-end-line="271" selection-end-column="20" />
               <folding>
-                <marker date="1485789080548" expanded="true" signature="1422:1563" ph="..." />
-                <marker date="1485789080548" expanded="true" signature="1642:1783" ph="..." />
+                <marker date="1485792767554" expanded="true" signature="1422:1563" ph="..." />
+                <marker date="1485792767554" expanded="true" signature="1642:1783" ph="..." />
               </folding>
             </state>
           </provider>
@@ -104,13 +103,21 @@
       <find>welcome</find>
       <find>intro</find>
       <find>header</find>
-      <find>contact</find>
       <find>our am</find>
       <find>service</find>
       <find>port</find>
       <find>paul</find>
       <find>portfo</find>
       <find>bootstrap</find>
+      <find>video</find>
+      <find>tem</find>
+      <find>amazing</find>
+      <find>adven</find>
+      <find>team</find>
+      <find>Vince</find>
+      <find>Services</find>
+      <find>services</find>
+      <find>contact</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -135,7 +142,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
     <option name="y" value="52" />
-    <option name="width" value="980" />
+    <option name="width" value="851" />
     <option name="height" value="716" />
   </component>
   <component name="ProjectView">
@@ -321,7 +328,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="52" width="980" height="716" extended-state="4" />
+    <frame x="65" y="52" width="851" height="716" extended-state="4" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24927954" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -461,11 +468,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="60" column="21" lean-forward="false" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
+        <state relative-caret-position="475">
+          <caret line="271" column="20" lean-forward="false" selection-start-line="271" selection-start-column="20" selection-end-line="271" selection-end-column="20" />
           <folding>
-            <marker date="1485789080548" expanded="true" signature="1422:1563" ph="..." />
-            <marker date="1485789080548" expanded="true" signature="1642:1783" ph="..." />
+            <marker date="1485792767554" expanded="true" signature="1422:1563" ph="..." />
+            <marker date="1485792767554" expanded="true" signature="1642:1783" ph="..." />
           </folding>
         </state>
       </provider>
