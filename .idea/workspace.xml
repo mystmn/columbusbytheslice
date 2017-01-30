@@ -30,11 +30,11 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="271" column="20" lean-forward="false" selection-start-line="271" selection-start-column="20" selection-end-line="271" selection-end-column="20" />
+            <state relative-caret-position="427">
+              <caret line="281" column="52" lean-forward="false" selection-start-line="281" selection-start-column="52" selection-end-line="281" selection-end-column="52" />
               <folding>
-                <marker date="1485792767554" expanded="true" signature="1422:1563" ph="..." />
-                <marker date="1485792767554" expanded="true" signature="1642:1783" ph="..." />
+                <marker date="1485793303871" expanded="true" signature="1422:1563" ph="..." />
+                <marker date="1485793303871" expanded="true" signature="1642:1783" ph="..." />
               </folding>
             </state>
           </provider>
@@ -142,7 +142,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
     <option name="y" value="52" />
-    <option name="width" value="851" />
+    <option name="width" value="759" />
     <option name="height" value="716" />
   </component>
   <component name="ProjectView">
@@ -328,7 +328,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="52" width="851" height="716" extended-state="4" />
+    <frame x="65" y="52" width="759" height="716" extended-state="4" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24927954" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -468,11 +468,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="271" column="20" lean-forward="false" selection-start-line="271" selection-start-column="20" selection-end-line="271" selection-end-column="20" />
+        <state relative-caret-position="427">
+          <caret line="281" column="52" lean-forward="false" selection-start-line="281" selection-start-column="52" selection-end-line="281" selection-end-column="52" />
           <folding>
-            <marker date="1485792767554" expanded="true" signature="1422:1563" ph="..." />
-            <marker date="1485792767554" expanded="true" signature="1642:1783" ph="..." />
+            <marker date="1485793303871" expanded="true" signature="1422:1563" ph="..." />
+            <marker date="1485793303871" expanded="true" signature="1642:1783" ph="..." />
           </folding>
         </state>
       </provider>
