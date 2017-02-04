@@ -8,13 +8,9 @@ def index():
     name = ""
     return render_template('index.html')
 
-@app.route('/hello')
-def hello():
-    return render_template('hello.html')
-
-@app.route('/pizza')
+@app.route('/videos')
 def beta():
-    return render_template('home.html')
+    return render_template('videos.html')
 
 if __name__ == "__main__":
     app.run()

@@ -13,6 +13,6 @@ from run import app as application
 #
 if __name__ == '__main__':
     from wsgiref.simple_server import make_server
-    httpd = make_server('localhost', 5005, application)
+    httpd = make_server('localhost', 5000, application)
     # Wait for a single request, serve it and quit.
     httpd.serve_forever()
