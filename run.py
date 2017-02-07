@@ -12,5 +12,9 @@ def index():
 def beta():
     return render_template('videos.html')
 
+@app.route('/cars')
+def bob():
+    return render_template('cars.html')
+
 if __name__ == "__main__":
     app.run()

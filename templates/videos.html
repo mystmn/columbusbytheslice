@@ -1,61 +1,67 @@
 {% extends "default.html" %}
+{% include "youtube_slider.html" %}
+
 {% block body %}
-<div class="container">
-    <div class="row" style="margin-top:10px;margin-bottom:10px;">
-        <div class="col-lg-3 col-sm-2 portfolio-item">
-        </div>
-        <div class="col-lg-6 col-sm-8 portfolio-item">
-            <div class="embed-responsive embed-responsive-16by9 mbl">
-                <iframe name="iframe-name" class="embed-responsive-item"
-                        src="//www.youtube.com/embed/ZuGHts631vM?&showinfo=0
-                        " allowfullscreen></iframe>
-            </div>
-        </div>
-        <div class="col-lg-3 col-sm-2 portfolio-item"></div>
-    </div>
-</div>
+<!-- Playlist -->
 <div class="container">
     <div class="row">
-        <div class="col-md-4 col-sm-6 portfolio-item">
+        <div class="vid-list-container">
+            <div class="vid-list">
+                <div class="vid-item"
+                     onclick="document.getElementById('vid_frame').src='http://youtube.com/embed/quoBv9-bogM?autoplay=1&amp;rel=0&amp;showinfo=0&amp;autohide=1'">
+                    <div class="thumb"><img src="static/img/video/Selection_004.png"></div>
+                    <div class="desc">#16: Leone's Pizza at 5413 Sinclair Rd (Columbus)</div>
+                </div>
+                <div class="vid-item"
+                     onclick="document.getElementById('vid_frame').src='http://youtube.com/embed/i3uz8ljPf78?autoplay=1&amp;rel=0&amp;showinfo=0&amp;autohide=1'">
+                    <div class="thumb"><img src="static/img/video/Selection_006.png"></div>
+                    <div class="desc">#15: Capuano's Pizza House at 24 S Twp Rd (Pataskala)</div>
+                </div>
+                <div class="vid-item"
+                     onclick="document.getElementById('vid_frame').src='http://youtube.com/embed/wlTwaKbvRyY?autoplay=1&amp;rel=0&amp;showinfo=0&amp;autohide=1'">
+                    <div class="thumb"><img src="static/img/video/Selection_005.png"></div>
+                    <div class="desc">#14: Flyers Pizza at 121 W Main St (West Jefferson)</div>
+                </div>
+                <div class="vid-item"
+                     onclick="document.getElementById('vid_frame').src='http://youtube.com/embed/fB8UTheTR7s?autoplay=1&amp;rel=0&amp;showinfo=0&amp;autohide=1'">
+                    <div class="thumb"><img src="static/img/video/Selection_007.png"></div>
+                    <div class="desc">Sleepy Man Banjo Boys: Bluegrass</div>
+                </div>
 
-            <article class="video">
-                <figure>
-                    <a target="iframe-name" class="thumbnails"
-                       href="//www.youtube.com/embed/zH3ZohGnjcg">
-                        <img class="videoThumb"
-                             src="https://secure-b.vimeocdn.com/ts/178/010/178010767_295.jpg"></a>
-                </figure>
-                <h3 class="videoTitle">video1</h3>
-                <p class="time">6:13</p>
-            </article>
+                <div class="vid-item"
+                     onclick="document.getElementById('vid_frame').src='http://youtube.com/embed/0SNhAKyXtC8?autoplay=1&amp;rel=0&amp;showinfo=0&amp;autohide=1'">
+                    <div class="thumb"><img src="static/img/video/Selection_008.png"></div>
+                    <div class="desc">Edmar Castaneda: NPR Music Tiny Desk Concert</div>
+                </div>
+
+                <div class="vid-item"
+                     onclick="document.getElementById('vid_frame').src='http://youtube.com/embed/RTHI_uGyfTM?autoplay=1&amp;rel=0&amp;showinfo=0&amp;autohide=1'">
+                    <div class="thumb"><img src="http://img.youtube.com/vi/RTHI_uGyfTM/0.jpg"></div>
+                    <div class="desc">Winter Harp performs Caravan</div>
+                </div>
+
+                <div class="vid-item"
+                     onclick="document.getElementById('vid_frame').src='http://youtube.com/embed/abQRt6p8T7g?autoplay=1&amp;rel=0&amp;showinfo=0&amp;autohide=1'">
+                    <div class="thumb"><img src="http://img.youtube.com/vi/abQRt6p8T7g/0.jpg"></div>
+                    <div class="desc">The Avett Brothers Tiny Desk Concert</div>
+                </div>
+
+                <div class="vid-item"
+                     onclick="document.getElementById('vid_frame').src='http://youtube.com/embed/fpmN9JorFew?autoplay=1&amp;rel=0&amp;showinfo=0&amp;autohide=1'">
+                    <div class="thumb"><img src="http://img.youtube.com/vi/fpmN9JorFew/0.jpg"></div>
+                    <div class="desc">Tracy Chapman - Give Me One Reason</div>
+                </div>
+
+            </div>
         </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
-
-            <article class="video">
-                <figure>
-                    <a target="iframe-name" class="thumbnails"
-                       href="//www.youtube.com/embed/_ZSefvtdYiY">
-                        <img class="videoThumb"
-                             src="https://secure-b.vimeocdn.com/ts/178/010/178010767_295.jpg"></a>
-                </figure>
-                <h3 class="videoTitle">video 2</h3>
-                <p class="time">4:36</p>
-
-            </article>
-        </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
-
-            <article class="video">
-                <figure>
-                    <a target="iframe-name" class="thumbnails"
-                       href="//www.youtube.com/embed/_ZSefvtdYiY">
-                        <img class="videoThumb"
-                             src="https://secure-b.vimeocdn.com/ts/178/010/178010767_295.jpg"></a>
-                </figure>
-                <h3 class="videoTitle">video 3</h3>
-                <p class="time">15:23</p>
-
-            </article>
+    </div>
+</div>
+<!-- LEFT AND RIGHT ARROWS -->
+<div class="container">
+    <div class="row">
+        <div class="arrows">
+            <div class="arrow-left"><i class="fa fa-chevron-left fa-lg"></i></div>
+            <div class="arrow-right"><i class="fa fa-chevron-right fa-lg"></i></div>
         </div>
     </div>
 </div>
