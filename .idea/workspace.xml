@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fcbaf275-40fa-42a7-b84c-8796170cdc5f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/videos.css" afterPath="$PROJECT_DIR$/static/css/videos.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/vendor/font-awesome/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/css/font-awesome.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/default.html" afterPath="$PROJECT_DIR$/templates/default.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/videos.html" afterPath="$PROJECT_DIR$/templates/videos.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/youtube_slider.html" afterPath="$PROJECT_DIR$/templates/youtube_slider.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wsgi.py" afterPath="$PROJECT_DIR$/wsgi.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -81,10 +74,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="videos.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="videos.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/css/videos.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
+            <state relative-caret-position="259">
               <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
               <folding />
             </state>
@@ -103,11 +96,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="videos.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="videos.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/videos.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16">
-              <caret line="34" column="22" lean-forward="true" selection-start-line="34" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+            <state relative-caret-position="236">
+              <caret line="33" column="84" lean-forward="false" selection-start-line="33" selection-start-column="84" selection-end-line="33" selection-end-column="84" />
               <folding />
             </state>
           </provider>
@@ -168,8 +161,8 @@
         <option value="$PROJECT_DIR$/static/vendor/font-awesome/css/font-awesome.min.css" />
         <option value="$PROJECT_DIR$/templates/youtube_slider.html" />
         <option value="$PROJECT_DIR$/templates/default.html" />
-        <option value="$PROJECT_DIR$/templates/videos.html" />
         <option value="$PROJECT_DIR$/static/css/videos.css" />
+        <option value="$PROJECT_DIR$/templates/videos.html" />
       </list>
     </option>
   </component>
@@ -830,14 +823,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/videos.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="34" column="22" lean-forward="true" selection-start-line="34" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/youtube_slider.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
@@ -850,8 +835,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/videos.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
+        <state relative-caret-position="259">
           <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/videos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="33" column="84" lean-forward="false" selection-start-line="33" selection-start-column="84" selection-end-line="33" selection-end-column="84" />
           <folding />
         </state>
       </provider>
